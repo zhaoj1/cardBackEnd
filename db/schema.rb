@@ -16,7 +16,8 @@ ActiveRecord::Schema.define(version: 2020_04_10_201220) do
     t.string "name"
     t.string "description"
     t.string "effect_type"
-    t.integer "hp_effect"
+    t.integer "effect"
+    t.boolean "special"
   end
 
   create_table "enemies", force: :cascade do |t|

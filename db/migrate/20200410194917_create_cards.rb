@@ -4,7 +4,8 @@ class CreateCards < ActiveRecord::Migration[6.0]
       t.string :name
       t.string :description
       t.string :effect_type
-      t.integer :hp_effect
+      t.integer :effect
+      t.boolean :special
     end
   end
 end

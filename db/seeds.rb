@@ -15,4 +15,4 @@ Card.create(name: 'vamp', description: 'Deal 2 damage and heal 2 HP', effect_typ
 Enemy.create(name: 'Slime', hp: 25, deck: [3,3,3,4])
 Enemy.create(name: 'Kobold', hp: 50, deck: [1,3,4,5])
 Enemy.create(name: 'Orc', hp: 100, deck: [1,2,3,3])
-Enemy.create(name: 'Lich King', hp: 150, deck: [1,1,1,2])
+Enemy.create(name: 'Lich King', hp: 150, deck: [1,3,3,2])

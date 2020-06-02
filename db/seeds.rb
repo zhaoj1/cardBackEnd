@@ -13,7 +13,6 @@ Card.create(name: 'lil dmg', description: 'Deal 4 damage', effect_type: 'damage'
 Card.create(name: 'heal', description: 'Heal 8 HP', effect_type: 'heal', effect: 8, special: false)
 Card.create(name: 'vamp', description: 'Deal 3 damage and heal 3 HP', effect_type: 'vamp', effect: 3, special: false)
 Card.create(name: 'dagger', description: 'Deal 2 damage and redraw 1 random card from graveyard', effect_type: 'draw', effect: 0, special: false)
-Card.create(name: 'sns', description: 'Deal 2 damage and block 2 damage from enemy card', effect_type: 'sns', effect: 2, special: false)
 
 Enemy.create(name: 'Slime', hp: 30, deck: [4,4,4,5])
 Enemy.create(name: 'Kobold', hp: 50, deck: [1,4,5,6])
